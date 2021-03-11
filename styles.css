@@ -1,0 +1,95 @@
+
+
+
+body {
+    max-width: 1440px;
+    overflow: hidden; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Commissioner', 'sans-serif';
+    font-size: 16px;
+}
+
+p{
+    color: hsl(0, 0%, 48%)
+}
+
+.hero-section {
+    width: 100%;
+    height: 400px;
+    color: white;
+    position: relative;
+    background-size: cover;
+    background-image: url("/images/image-hero-desktop.jpg");
+}
+
+.logo img{
+    width: auto;
+    height: 25x;;
+}
+
+.menue{
+    padding-left: 170px;
+    padding-right: 125px;
+    padding-top: 30px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menue-links{
+    list-style-type: none;
+}
+
+.menue-links li{
+    display: inline;
+    margin-right: 25px;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+.mainCard-Container{
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.mainCard{
+    height: 500px;
+    width: 700px;
+    background-color: white; 
+    z-index: 2;
+    margin-top: -100px;
+    border-radius: 10px;
+}
+
+.mainCard-Elements-Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: hsl(176, 50%, 47%);
+    color: white;
+    height: auto;
+    padding-left:  30px;
+    padding-right:  30px;
+    text-align: center;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: hsl(176, 72%, 28%);
+}
+
+
